@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root{
+    --background: #ffc8dd;
+    --backgroundBox: #bde0fe;
+    --primary: #a2d2ff;
+    --secondary: #cdb4db;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main{
+    flex:1;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 120px;
+    background-color: var(--backgroundBox);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+button{
+    text-align: center;
+    border: none;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: var(--background);
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+#siButton:hover{
+    background-color: var(--secondary);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundBox);
+}
+
+.box div {
+    background-color: var(--backgroundBox);
+}
+
+.box h1{
+    background-color: var(--backgroundBox);
+}
+
