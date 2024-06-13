@@ -81,3 +81,10 @@ button{
     background-color: var(--backgroundBox);
 }
 
+
+@media (max-width: 600px){
+    .content{
+        margin: 22px 15px;
+    }
+
+}
