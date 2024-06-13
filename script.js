@@ -52,7 +52,7 @@ function confirmAction() {
 
             Swal.fire({
                 title: '¿Como que no?',
-                text: 'Aun asi te la voy a decir',
+                text: 'Aun asi te voy a decir',
             }).then(() => {
 
                 window.location.href = 'propuesta.html';
@@ -64,7 +64,7 @@ function confirmAction() {
 function confirmAction1() {
     Swal.fire({
         title: '¿Como que no?',
-        text: 'Aun asi te la voy a decir',
+        text: 'Aun asi te voy a decir',
     }).then(() => {
 
         window.location.href = 'propuesta.html';
