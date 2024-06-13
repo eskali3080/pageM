@@ -47,6 +47,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   margin: 60px 120px;
   background-color: var(--backgroundBox);
   border-radius: 10px;
